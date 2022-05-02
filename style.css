@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+}
+
+.parameters{
+    display: block;
+    width: 50%;
+    border: 1px solid  rgb(146, 203, 183);
+    border-radius: 5px;
+    margin: 10% auto;
+    padding: 1%;
+    background-color: rgb(210, 248, 235);
+}
+form{
+    margin: 0 auto;
+    text-align: center;
+}
+input[type="button"]{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.createElem{
+background-color: rgb(14, 136, 136);
+border: 1px solid rgb(14, 136, 136);
+}
+.widthHeight{
+    display: flex;
+    justify-content: space-around;
+}
+.widthHeight>input{
+    width: 40%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.colorsBG{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.color{
+    width: 30px;
+    height: 30px;
+}
+.red{
+    background-color: lightcoral;
+    border: 5px double rgb(209, 22, 22);
+}
+.green{
+    background-color: lightgreen;
+    border: 5px double rgb(16, 118, 7);
+}
+.blue{
+    background-color: lightblue;
+    border: 5px double rgb(27, 4, 174);
+}
+.coordinates{
+    background-color: rgb(11, 162, 36);
+    border: 1px solid rgb(11, 162, 36);
+}
+.elem{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(97 92 92);
+    border: 5px double #000;
+}
